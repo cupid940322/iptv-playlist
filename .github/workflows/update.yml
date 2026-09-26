@@ -1,0 +1,45 @@
+name: Auto update IPTV playlist
+
+on:
+  schedule:
+    - cron: '0 1 * * *'  # UTC 1:00 = 北京时间每天早上 9:00
+  workflow_dispatch:      # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Download latest playlist
+        run: |
+          curl -sL --max-time 300 -o /tmp/result.m3u \
+            "https://github.com/Guovin/iptv-api/releases/download/playlist-latest/result.m3u"
+          echo "下载大小: $(wc -c < /tmp/result.m3u) 字节"
+          head -2 /tmp/result.m3u
+
+      - name: Update files if changed
+        run: |
+          set -e
+          NEW_TIME=$(grep -m1 '更新时间' /tmp/result.m3u | sed 's/.*,//' || echo "")
+          OLD_TIME=$(grep -m1 '更新时间' result.m3u8 | sed 's/.*,//' || echo "")
+          echo "官方版本: $NEW_TIME"
+          echo "仓库版本: $OLD_TIME"
+          if [ -z "$NEW_TIME" ] || [ "$NEW_TIME" = "$OLD_TIME" ]; then
+            echo "没有新版本，跳过更新"
+            exit 0
+          fi
+          cp /tmp/result.m3u result.m3u
+          cp /tmp/result.m3u result.m3u8
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add result.m3u result.m3u8
+          git commit -m "自动更新播放列表: $NEW_TIME"
+          git push
+          echo "已更新至 $NEW_TIME"
