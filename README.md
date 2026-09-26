@@ -4,16 +4,22 @@
 
 ## 使用
 
-将以下链接导入播放器（PotPlayer / VLC / TiviMate / DIYP 等）：
+将以下任一链接导入播放器（PotPlayer / VLC / TiviMate / DIYP 等）：
 
 ```
 https://raw.githubusercontent.com/cupid940322/iptv-playlist/main/result.m3u8
 ```
 
-国内网络若无法直连 raw.githubusercontent.com，可使用加速链接：
+国内网络推荐使用加速链接（速度快、更稳定）：
 
 ```
 https://gh-proxy.com/https://raw.githubusercontent.com/cupid940322/iptv-playlist/main/result.m3u8
+```
+
+或 jsDelivr CDN：
+
+```
+https://cdn.jsdelivr.net/gh/cupid940322/iptv-playlist@main/result.m3u8
 ```
 
 ## 说明
