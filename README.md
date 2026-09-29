@@ -46,12 +46,33 @@ https://cdn.jsdelivr.net/gh/cupid940322/iptv-playlist@main/china.m3u8
 
 包含 CGTN 系列、CCTV+、湖南卫视国际版、浙江卫视国际、广州 TV 及各地方频道等。
 
+### 3. iptv-search 中国地方台（约 614 个）
+
+```
+https://raw.githubusercontent.com/cupid940322/iptv-playlist/main/china-local.m3u8
+```
+
+加速链接：
+
+```
+https://gh-proxy.com/https://raw.githubusercontent.com/cupid940322/iptv-playlist/main/china-local.m3u8
+```
+
+或 jsDelivr CDN：
+
+```
+https://cdn.jsdelivr.net/gh/cupid940322/iptv-playlist@main/china-local.m3u8
+```
+
+来自 [iptv-search.com](https://iptv-search.com./category/%E4%B8%AD%E5%9B%BD%E5%9C%B0%E6%96%B9%E5%8F%B0) 的「中国地方台」分类，覆盖全国各地市/县级地方频道（经站方代理转链）。
+
 ## 自动更新说明
 
 | 文件 | 数据来源 | 更新时间（北京时间） |
 |------|----------|----------------------|
-| `result.m3u8` / `result.m3u` | Guovin/iptv-api 官方 | 每天 9:00 |
-| `china.m3u8` / `china.m3u` | eja.tv 中国区 | 每天 9:30 |
+| `result.m3u8` / `result.m3u` | Guovin/iptv-api 官方 | 每天 9:17 |
+| `china.m3u8` / `china.m3u` | eja.tv 中国区 | 每天 9:47 |
+| `china-local.m3u8` / `china-local.m3u` | iptv-search.com 中国地方台 | 每天 10:07 |
 
 - 内容无变化时自动跳过提交；每次提交记录均带数据时间戳
 - 可在 Actions 页面手动触发 Run workflow 立即更新
@@ -60,4 +81,5 @@ https://cdn.jsdelivr.net/gh/cupid940322/iptv-playlist@main/china.m3u8
 
 - `result.m3u8` 文件头部附带 EPG 节目单地址，支持频道预告
 - `china.m3u8` 由 [scripts/eja_scraper.py](scripts/eja_scraper.py) 抓取生成
+- `china-local.m3u8` 由 [scripts/iptvsearch_scraper.py](scripts/iptvsearch_scraper.py) 抓取生成
 - 更新记录见提交历史
