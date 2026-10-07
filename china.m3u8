@@ -1,5 +1,5 @@
 #EXTM3U
-# 抓取自 eja.tv 中国区，更新时间: 2026-10-06 08:10:02
+# 抓取自 eja.tv 中国区，更新时间: 2026-10-07 07:43:55
 #EXTINF:-1 tvg-name="CGTN Documentary" group-title="🇨🇳EJA中国频道",CGTN Documentary
 https://english-livebkali.cgtn.com/live/doccgtn.m3u8
 #EXTINF:-1 tvg-name="CCTV+ 1" group-title="🇨🇳EJA中国频道",CCTV+ 1
@@ -92,8 +92,6 @@ https://h5cul1yar48um3t.wcetv.com/hls/cctv4.m3u8
 https://0472.org/hls/cgtn.m3u8
 #EXTINF:-1 tvg-name="CGTN English" group-title="🇨🇳EJA中国频道",CGTN English
 https://h5cul1yar48um3t.wcetv.com/hls/cgtn.m3u8
-#EXTINF:-1 tvg-name="CND Film Middle School Channel" group-title="🇨🇳EJA中国频道",CND Film Middle School Channel
-http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8
 #EXTINF:-1 tvg-name="Lanzhou Culture & Tourism Channel" group-title="🇨🇳EJA中国频道",Lanzhou Culture & Tourism Channel
 https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8
 #EXTINF:-1 tvg-name="Nei Monggol TV" group-title="🇨🇳EJA中国频道",Nei Monggol TV
@@ -110,8 +108,6 @@ https://hlspackager.akamaized.net/live/DB/CGTN_ENGLISH/HLS/CGTN_ENGLISH.m3u8
 https://dai.google.com/linear/hls/event/r4sa-f6GSN2XIvzKv5jVng/master.m3u8
 #EXTINF:-1 tvg-name="CGTN French" group-title="🇨🇳EJA中国频道",CGTN French
 https://h5cul1yar48um3t.wcetv.com/hls/cgtnf.m3u8
-#EXTINF:-1 tvg-name="CGTN Spanish" group-title="🇨🇳EJA中国频道",CGTN Spanish
-http://45.186.106.147:8880/play/a06f/index.m3u8
 #EXTINF:-1 tvg-name="CGTN Spanish" group-title="🇨🇳EJA中国频道",CGTN Spanish
 https://h5cul1yar48um3t.wcetv.com/hls/cgtne.m3u8
 #EXTINF:-1 tvg-name="Chuxiong News Channel" group-title="🇨🇳EJA中国频道",Chuxiong News Channel
