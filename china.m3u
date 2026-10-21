@@ -1,5 +1,5 @@
 #EXTM3U
-# 抓取自 eja.tv 中国区，更新时间: 2026-10-20 06:40:30
+# 抓取自 eja.tv 中国区，更新时间: 2026-10-21 06:36:24
 #EXTINF:-1 tvg-name="CGTN Documentary" group-title="🇨🇳EJA中国频道",CGTN Documentary
 https://english-livebkali.cgtn.com/live/doccgtn.m3u8
 #EXTINF:-1 tvg-name="CCTV+ 1" group-title="🇨🇳EJA中国频道",CCTV+ 1
@@ -16,10 +16,10 @@ https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
 https://dash4.antik.sk/live/test_cgtn/playlist.m3u8
 #EXTINF:-1 tvg-name="CGTN" group-title="🇨🇳EJA中国频道",CGTN
 https://english-livebkali.cgtn.com/live/encgtn.m3u8
-#EXTINF:-1 tvg-name="Zhejiang TV International" group-title="🇨🇳EJA中国频道",Zhejiang TV International
-https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
 #EXTINF:-1 tvg-name="CGTN Documentary" group-title="🇨🇳EJA中国频道",CGTN Documentary
 https://dash3.antik.sk/live/test_cgtn_doc/playlist.m3u8
+#EXTINF:-1 tvg-name="Zhejiang TV International" group-title="🇨🇳EJA中国频道",Zhejiang TV International
+https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
 #EXTINF:-1 tvg-name="CGTN Russian" group-title="🇨🇳EJA中国频道",CGTN Russian
 https://dash3.antik.sk/live/test_cgtn_rus_tizen/playlist.m3u8
 #EXTINF:-1 tvg-name="Guangzhou TV" group-title="🇨🇳EJA中国频道",Guangzhou TV
@@ -34,24 +34,24 @@ https://xykt-fix.github.io/Y77.m3u8
 https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
 #EXTINF:-1 tvg-name="Bread TV面包台" group-title="🇨🇳EJA中国频道",Bread TV面包台
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
+#EXTINF:-1 tvg-name="Discovering China" group-title="🇨🇳EJA中国频道",Discovering China
+https://amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtndiscoveringchina-distrotvus/playlist.m3u8
 #EXTINF:-1 tvg-name="CGTN Spanish" group-title="🇨🇳EJA中国频道",CGTN Spanish
 https://dash4.antik.sk/live/test_cgtn_esp_tizen/playlist.m3u8
 #EXTINF:-1 tvg-name="Anshun Comprehensive News Channel" group-title="🇨🇳EJA中国频道",Anshun Comprehensive News Channel
 https://hplayer1.juyun.tv/camera/154379194.m3u8
 #EXTINF:-1 tvg-name="CGTN French" group-title="🇨🇳EJA中国频道",CGTN French
 https://dash4.antik.sk/live/test_cgtn_fra_tizen/playlist.m3u8
-#EXTINF:-1 tvg-name="Nei Monggol TV" group-title="🇨🇳EJA中国频道",Nei Monggol TV
-https://cdn4.skygo.mn/live/disk1/NeigMGL/HLSv3-FTA/NeigMGL.m3u8
 #EXTINF:-1 tvg-name="CCTV-10" group-title="🇨🇳EJA中国频道",CCTV-10
 https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8
 #EXTINF:-1 tvg-name="Chifeng Comprehensive News Chanel" group-title="🇨🇳EJA中国频道",Chifeng Comprehensive News Chanel
 http://play1-qk.nmtv.cn/live/1735546697341033.m3u8
 #EXTINF:-1 tvg-name="CGTN Arabic" group-title="🇨🇳EJA中国频道",CGTN Arabic
 https://dash3.antik.sk/live/test_cgtn_arb_tizen/playlist.m3u8
-#EXTINF:-1 tvg-name="CCTV-1" group-title="🇨🇳EJA中国频道",CCTV-1
-https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8
 #EXTINF:-1 tvg-name="Hebei TV" group-title="🇨🇳EJA中国频道",Hebei TV
 https://event.pull.hebtv.com:443/live/live101.m3u8
+#EXTINF:-1 tvg-name="CCTV-1" group-title="🇨🇳EJA中国频道",CCTV-1
+https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8
 #EXTINF:-1 tvg-name="CGTN Global Biz" group-title="🇨🇳EJA中国频道",CGTN Global Biz
 https://amg01314-amg01314c6-distrotv-us-10220.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtnglobalbiz-distrotvus/playlist.m3u8
 #EXTINF:-1 tvg-name="Xizang TV Tibetan" group-title="🇨🇳EJA中国频道",Xizang TV Tibetan
@@ -76,8 +76,6 @@ https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
 https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
 #EXTINF:-1 tvg-name="Lanzhou Culture & Tourism Channel" group-title="🇨🇳EJA中国频道",Lanzhou Culture & Tourism Channel
 https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8
-#EXTINF:-1 tvg-name="Xinjiang TV 2" group-title="🇨🇳EJA中国频道",Xinjiang TV 2
-https://hls.quklive.com/live/play-sh-21.quklive.com/1777511615189085.m3u8?auth_key=2092871636-a39d8614688744d0b170b856b086ba80-0-33900446b83fa0b5befeb6bedbcd51a0
 #EXTINF:-1 tvg-name="CGTN Español" group-title="🇨🇳EJA中国频道",CGTN Español
 https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
 #EXTINF:-1 tvg-name="CGTN Русский" group-title="🇨🇳EJA中国频道",CGTN Русский
@@ -108,5 +106,3 @@ https://pili-live-hls-zdzz-tv.zzxwcm.cn/zdzz-tv/nqzh.m3u8
 https://hlspackager.akamaized.net/live/DB/CGTN_ENGLISH/HLS/CGTN_ENGLISH.m3u8
 #EXTINF:-1 tvg-name="CGTN Spanish" group-title="🇨🇳EJA中国频道",CGTN Spanish
 http://45.186.106.147:8880/play/a06f/index.m3u8
-#EXTINF:-1 tvg-name="Chuxiong News Channel" group-title="🇨🇳EJA中国频道",Chuxiong News Channel
-http://hwapi.yntv.net/ew265l/848y54.m3u8
