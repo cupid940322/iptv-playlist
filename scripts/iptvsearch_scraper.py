@@ -7,6 +7,7 @@ https://iptv-search.com/live/fav/<token>/<hash>，token 全局固定，
 """
 import html as html_mod
 import json
+import os
 import re
 import sys
 import time
@@ -26,9 +27,22 @@ FILTER_RE = re.compile(
 )
 
 
-def http_get(url: str, headers: dict | None = None, timeout: int = 40) -> str:
-    req = urllib.request.Request(url, headers=headers or HEADERS)
-    return urllib.request.urlopen(req, timeout=timeout).read().decode("utf-8", errors="replace")
+class SourceUnavailable(Exception):
+    """数据源网络不可用"""
+
+
+def http_get(url: str, headers: dict | None = None, timeout: int = 40, retries: int = 3) -> str:
+    last_err = None
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers=headers or HEADERS)
+            return urllib.request.urlopen(req, timeout=timeout).read().decode("utf-8", errors="replace")
+        except Exception as e:
+            last_err = e
+            sys.stderr.write(f"请求失败({attempt + 1}/{retries}): {e}\n")
+            if attempt < retries - 1:
+                time.sleep(5 * (attempt + 1))
+    raise SourceUnavailable(f"{url} -> {last_err}")
 
 
 def fetch_channels() -> list[dict]:
@@ -73,9 +87,16 @@ channels_cache: list[dict] = []
 
 def main():
     global channels_cache
-    channels_cache = fetch_channels()
-    sys.stderr.write(f"页面去重后频道数: {len(channels_cache)}\n")
-    token = get_token()
+    try:
+        channels_cache = fetch_channels()
+        sys.stderr.write(f"页面去重后频道数: {len(channels_cache)}\n")
+        token = get_token()
+    except SourceUnavailable as e:
+        if os.path.exists("china-local.m3u8"):
+            print(f"WARN: 数据源暂不可用，保留上次结果，本次跳过。原因: {e}")
+            return 0
+        print(f"ERROR: {e}", file=sys.stderr)
+        return 1
     sys.stderr.write(f"播放 token: {token}\n")
 
     stamp = time.strftime("%Y-%m-%d %H:%M:%S")
@@ -95,7 +116,8 @@ def main():
         with open(fname, "w", encoding="utf-8") as f:
             f.write(content)
     print(f"OK: 共 {len(channels_cache)} 个频道写入 china-local.m3u8")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

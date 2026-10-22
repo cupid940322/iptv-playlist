@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """从 eja.tv 抓取中国区频道并生成 china.m3u8"""
 import html as html_mod
+import os
 import re
 import sys
 import time
@@ -33,9 +34,18 @@ def fetch_page(offset: int) -> str:
     params = urllib.parse.urlencode(
         {"offset": offset, "country": "cn", "language": "", "category": "", "search": ""}
     )
-    req = urllib.request.Request(BASE + "?" + params, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return resp.read().decode("utf-8", errors="replace")
+    last_err = None
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(BASE + "?" + params, headers=HEADERS)
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return resp.read().decode("utf-8", errors="replace")
+        except Exception as e:
+            last_err = e
+            sys.stderr.write(f"请求失败({attempt + 1}/3): {e}\n")
+            if attempt < 2:
+                time.sleep(5 * (attempt + 1))
+    raise RuntimeError(f"eja.tv 不可用: {last_err}")
 
 
 def strip_tags(s: str) -> str:
@@ -67,18 +77,25 @@ def extract_cards(html: str):
 def main():
     all_channels = []
     offset = 0
-    while offset <= MAX_OFFSET:
-        html = fetch_page(offset)
-        cards = extract_cards(html)
-        if not cards:
-            break
-        all_channels.extend(cards)
-        sys.stderr.write(f"offset={offset}: +{len(cards)} (累计 {len(all_channels)})\n")
-        next_offsets = [int(x) for x in OFFSET_RE.findall(html)]
-        candidates = [x for x in next_offsets if x > offset]
-        if not candidates:
-            break
-        offset = min(candidates)
+    try:
+        while offset <= MAX_OFFSET:
+            html = fetch_page(offset)
+            cards = extract_cards(html)
+            if not cards:
+                break
+            all_channels.extend(cards)
+            sys.stderr.write(f"offset={offset}: +{len(cards)} (累计 {len(all_channels)})\n")
+            next_offsets = [int(x) for x in OFFSET_RE.findall(html)]
+            candidates = [x for x in next_offsets if x > offset]
+            if not candidates:
+                break
+            offset = min(candidates)
+    except RuntimeError as e:
+        if os.path.exists("china.m3u8"):
+            print(f"WARN: {e}；保留上次结果，本次跳过")
+            return 0
+        print(f"ERROR: {e}", file=sys.stderr)
+        return 1
 
     if not all_channels:
         print("ERROR: 未抓取到任何频道", file=sys.stderr)
@@ -98,7 +115,8 @@ def main():
             f.write(content)
 
     print(f"OK: 共 {len(all_channels)} 个频道写入 china.m3u8")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
