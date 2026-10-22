@@ -16,9 +16,24 @@ HEADERS = {
 }
 
 
-def http_get(url: str, timeout: int = 40) -> str:
-    req = urllib.request.Request(url, headers=HEADERS)
-    return urllib.request.urlopen(req, timeout=timeout).read().decode("utf-8", errors="replace")
+class SourceUnavailable(Exception):
+    """数据源网络不可用（区别于页面结构变化等代码问题）"""
+
+
+def http_get(url: str, timeout: int = 40, retries: int = 3) -> str:
+    """带重试的 GET；网络类错误重试后抛出 SourceUnavailable"""
+    last_err = None
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers=HEADERS)
+            return urllib.request.urlopen(req, timeout=timeout).read().decode("utf-8", errors="replace")
+        except Exception as e:  # 网络/代理/超时等
+            last_err = e
+            wait = 5 * (attempt + 1)
+            sys.stderr.write(f"请求失败({attempt + 1}/{retries}): {e}；{wait}s 后重试\n")
+            if attempt < retries - 1:
+                time.sleep(wait)
+    raise SourceUnavailable(f"{url} -> {last_err}")
 
 
 def extract_regions(html: str) -> dict:
@@ -53,12 +68,17 @@ def fetch_channels(source_id: int) -> tuple[dict, list]:
     return data.get("source", {}), data.get("channels", [])
 
 
-def main():
-    regions = extract_regions(http_get(INDEX_URL))
+def main() -> int:
+    try:
+        regions = extract_regions(http_get(INDEX_URL))
+    except SourceUnavailable as e:
+        print(f"WARN: 数据源暂不可用，保留上次结果，本次跳过。原因: {e}")
+        return 0
+
     sources = regions.get(PROVINCE, [])
     if not sources:
-        print(f"ERROR: 未找到 {PROVINCE} 的组播源", file=sys.stderr)
-        sys.exit(1)
+        print(f"ERROR: 未找到 {PROVINCE} 的组播源（页面结构可能变化）", file=sys.stderr)
+        return 1
     sys.stderr.write(f"{PROVINCE} 源数量: {len(sources)}\n")
 
     lines = [
@@ -70,7 +90,11 @@ def main():
     for src in sources:
         sid = src["id"]
         sname = src.get("name", f"source{sid}")
-        meta, channels = fetch_channels(sid)
+        try:
+            meta, channels = fetch_channels(sid)
+        except SourceUnavailable as e:
+            print(f"WARN: 源 {sname}(id={sid}) 暂不可用，跳过。原因: {e}")
+            continue
         sys.stderr.write(f"  {sname}(id={sid}): {len(channels)} 个频道\n")
         group = f"🇨🇳{sname}组播"
         for c in channels:
@@ -88,15 +112,16 @@ def main():
             total += 1
 
     if total == 0:
-        print("ERROR: 未抓取到任何频道", file=sys.stderr)
-        sys.exit(1)
+        print("WARN: 本次未获取到任何频道（数据源可能异常），保留上次结果")
+        return 0
 
     content = "\n".join(lines) + "\n"
     for fname in ("jiangsu-multicast.m3u8", "jiangsu-multicast.m3u"):
         with open(fname, "w", encoding="utf-8") as f:
             f.write(content)
     print(f"OK: 共 {total} 个频道写入 jiangsu-multicast.m3u8")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
