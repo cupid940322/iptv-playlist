@@ -109,6 +109,26 @@ https://cdn.jsdelivr.net/gh/cupid940322/iptv-playlist@main/jiangsu-unicom.m3u8
 
 JSBC 江苏广电**直连单播**（`112.86.202.37` / `122.97.211.133`），无中转跳数，延迟低；含央视、卫视、江苏各地市频道。**仅限江苏联通网络**播放；个别频道为 `rtsp://` 协议，VLC / PotPlayer 可直接播放。
 
+### 6. 江苏移动 IPTV（210 个）
+
+```
+https://raw.githubusercontent.com/cupid940322/iptv-playlist/main/jiangsu-mobile.m3u8
+```
+
+加速链接：
+
+```
+https://gh-proxy.com/https://raw.githubusercontent.com/cupid940322/iptv-playlist/main/jiangsu-mobile.m3u8
+```
+
+或 jsDelivr CDN：
+
+```
+https://cdn.jsdelivr.net/gh/cupid940322/iptv-playlist@main/jiangsu-mobile.m3u8
+```
+
+来自 [cicivi/jsyd-iptv](https://github.com/cicivi/jsyd-iptv)（高频维护），魔百盒 `ott.mobaibox.com` 直连，含央视/卫视/江苏省内/NewTV/4K8K/广播。**仅限江苏移动网络**播放。
+
 ## 自动更新说明
 
 | 文件 | 数据来源 | 更新时间（北京时间） |
@@ -118,6 +138,7 @@ JSBC 江苏广电**直连单播**（`112.86.202.37` / `122.97.211.133`），无�
 | `china-local.m3u8` / `china-local.m3u` | iptv-search.com 中国地方台 | 每天 10:07 |
 | `jiangsu-multicast.m3u8` / `.m3u` | 老张的EPG 江苏组播 | 每天 10:37 |
 | `jiangsu-unicom.m3u8` / `.m3u` | 恩山论坛 江苏联通 OTT 单播 | 每天 11:07 |
+| `jiangsu-mobile.m3u8` / `.m3u` | cicivi/jsyd-iptv 江苏移动 | 每天 11:27 |
 
 - 内容无变化时自动跳过提交；每次提交记录均带数据时间戳
 - 可在 Actions 页面手动触发 Run workflow 立即更新
@@ -129,4 +150,5 @@ JSBC 江苏广电**直连单播**（`112.86.202.37` / `122.97.211.133`），无�
 - `china-local.m3u8` 由 [scripts/iptvsearch_scraper.py](scripts/iptvsearch_scraper.py) 抓取生成
 - `jiangsu-multicast.m3u8` 由 [scripts/jiangsu_multicast_scraper.py](scripts/jiangsu_multicast_scraper.py) 抓取生成
 - `jiangsu-unicom.m3u8` 由 [scripts/jiangsu_unicom_scraper.py](scripts/jiangsu_unicom_scraper.py) 抓取生成
+- `jiangsu-mobile.m3u8` 由 [scripts/jiangsu_mobile_scraper.py](scripts/jiangsu_mobile_scraper.py) 同步生成
 - 更新记录见提交历史

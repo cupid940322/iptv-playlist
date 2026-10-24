@@ -1,0 +1,37 @@
+name: Auto update Jiangsu Mobile playlist
+
+on:
+  schedule:
+    - cron: '27 3 * * *'  # UTC 3:27 = 北京时间每天早上 11:27（非整点，减少调度延迟）
+  workflow_dispatch:     # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Sync Jiangsu Mobile playlist
+        run: |
+          python3 scripts/jiangsu_mobile_scraper.py
+          head -3 jiangsu-mobile.m3u8
+
+      - name: Commit if changed
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add jiangsu-mobile.m3u8 jiangsu-mobile.m3u
+          if git diff --cached --quiet; then
+            echo "内容无变化，跳过提交"
+            exit 0
+          fi
+          git commit -m "自动更新江苏移动列表: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+          echo "已提交更新"
