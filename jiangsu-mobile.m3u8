@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"
-# 江苏移动 IPTV 直播源（魔百盒直连，仅限江苏移动网络），更新时间: 2026-10-25 08:34:46
+# 江苏移动 IPTV 直播源（魔百盒直连，仅限江苏移动网络），更新时间: 2026-10-26 09:09:50
 # 上游: github.com/cicivi/jsyd-iptv
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="https://testingcf.jsdelivr.net/gh/cicivi/jsyd-iptv/logo/CCTV1.png" group-title="央视频道",CCTV 1
 http://ott.mobaibox.com/PLTV/3/224/3221227467/index.m3u8
