@@ -1,5 +1,5 @@
 #EXTM3U
-# 抓取自 iptv-search.com 中国地方台，更新时间: 2026-11-22 09:39:39
+# 抓取自 iptv-search.com 中国地方台，更新时间: 2026-11-23 10:38:37
 #EXTINF:-1 tvg-name="'gmzh' => '48td74/1t0g2n" group-title="🇨🇳中国地方台",'gmzh' => '48td74/1t0g2n
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/c09588c3
 #EXTINF:-1 tvg-name="'lzzhgb' => ['aac_zhgb'" group-title="🇨🇳中国地方台",'lzzhgb' => ['aac_zhgb'
@@ -59,13 +59,13 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/dc96bdd7
 #EXTINF:-1 tvg-name="东丰综合" group-title="🇨🇳中国地方台",东丰综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/c28f8557
 #EXTINF:-1 tvg-name="东平民生" group-title="🇨🇳中国地方台",东平民生
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/0a5bfb11
-#EXTINF:-1 tvg-name="东平民生" group-title="🇨🇳中国地方台",东平民生
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/dbd7484b
-#EXTINF:-1 tvg-name="东平综合" group-title="🇨🇳中国地方台",东平综合
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/dea29b43
+#EXTINF:-1 tvg-name="东平民生" group-title="🇨🇳中国地方台",东平民生
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/0a5bfb11
 #EXTINF:-1 tvg-name="东平综合" group-title="🇨🇳中国地方台",东平综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/a8cfa8b4
+#EXTINF:-1 tvg-name="东平综合" group-title="🇨🇳中国地方台",东平综合
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/dea29b43
 #EXTINF:-1 tvg-name="东方购物" group-title="🇨🇳中国地方台",东方购物
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/daa09d27
 #EXTINF:-1 tvg-name="东方购物" group-title="🇨🇳中国地方台",东方购物
@@ -151,9 +151,9 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/dd182481
 #EXTINF:-1 tvg-name="临淄生活服务" group-title="🇨🇳中国地方台",临淄生活服务
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/1f2022ff
 #EXTINF:-1 tvg-name="临清经济信息" group-title="🇨🇳中国地方台",临清经济信息
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/e78f5072
-#EXTINF:-1 tvg-name="临清经济信息" group-title="🇨🇳中国地方台",临清经济信息
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/461ce709
+#EXTINF:-1 tvg-name="临清经济信息" group-title="🇨🇳中国地方台",临清经济信息
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/e78f5072
 #EXTINF:-1 tvg-name="临清综合" group-title="🇨🇳中国地方台",临清综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/22b37341
 #EXTINF:-1 tvg-name="临清综合频道" group-title="🇨🇳中国地方台",临清综合频道
@@ -501,13 +501,13 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/006353a0
 #EXTINF:-1 tvg-name="周口新闻综合" group-title="🇨🇳中国地方台",周口新闻综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/635219a3
 #EXTINF:-1 tvg-name="周村新闻" group-title="🇨🇳中国地方台",周村新闻
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/9d344df3
-#EXTINF:-1 tvg-name="周村新闻" group-title="🇨🇳中国地方台",周村新闻
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/e3ea6c7f
-#EXTINF:-1 tvg-name="周村生活" group-title="🇨🇳中国地方台",周村生活
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/1cf9386c
+#EXTINF:-1 tvg-name="周村新闻" group-title="🇨🇳中国地方台",周村新闻
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/9d344df3
 #EXTINF:-1 tvg-name="周村生活" group-title="🇨🇳中国地方台",周村生活
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/129c3656
+#EXTINF:-1 tvg-name="周村生活" group-title="🇨🇳中国地方台",周村生活
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/1cf9386c
 #EXTINF:-1 tvg-name="呼伦贝尔" group-title="🇨🇳中国地方台",呼伦贝尔
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/9939e175
 #EXTINF:-1 tvg-name="呼伦贝尔新闻综合" group-title="🇨🇳中国地方台",呼伦贝尔新闻综合
@@ -791,13 +791,13 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/c2bc6457
 #EXTINF:-1 tvg-name="山西卫视" group-title="🇨🇳中国地方台",山西卫视
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/0cc7b47a
 #EXTINF:-1 tvg-name="山西影视" group-title="🇨🇳中国地方台",山西影视
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/b630ee29
-#EXTINF:-1 tvg-name="山西影视" group-title="🇨🇳中国地方台",山西影视
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/0f2508f1
-#EXTINF:-1 tvg-name="山西文体生活" group-title="🇨🇳中国地方台",山西文体生活
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/0df7313c
+#EXTINF:-1 tvg-name="山西影视" group-title="🇨🇳中国地方台",山西影视
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/b630ee29
 #EXTINF:-1 tvg-name="山西文体生活" group-title="🇨🇳中国地方台",山西文体生活
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/a02c3d6f
+#EXTINF:-1 tvg-name="山西文体生活" group-title="🇨🇳中国地方台",山西文体生活
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/0df7313c
 #EXTINF:-1 tvg-name="山西生活与法" group-title="🇨🇳中国地方台",山西生活与法
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/50ce2fc5
 #EXTINF:-1 tvg-name="山西社会与法治" group-title="🇨🇳中国地方台",山西社会与法治
@@ -815,9 +815,9 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/47432575
 #EXTINF:-1 tvg-name="岱岳TV" group-title="🇨🇳中国地方台",岱岳TV
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/71955b48
 #EXTINF:-1 tvg-name="峄城综合" group-title="🇨🇳中国地方台",峄城综合
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/c92cbb82
-#EXTINF:-1 tvg-name="峄城综合" group-title="🇨🇳中国地方台",峄城综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/4c7a3650
+#EXTINF:-1 tvg-name="峄城综合" group-title="🇨🇳中国地方台",峄城综合
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/c92cbb82
 #EXTINF:-1 tvg-name="崂山TV" group-title="🇨🇳中国地方台",崂山TV
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/08639cd6
 #EXTINF:-1 tvg-name="崂山频道" group-title="🇨🇳中国地方台",崂山频道
@@ -851,9 +851,9 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/75d31aa9
 #EXTINF:-1 tvg-name="常熟综合" group-title="🇨🇳中国地方台",常熟综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/b89c1283
 #EXTINF:-1 tvg-name="平原综合" group-title="🇨🇳中国地方台",平原综合
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/09ab42f7
-#EXTINF:-1 tvg-name="平原综合" group-title="🇨🇳中国地方台",平原综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/cbb12778
+#EXTINF:-1 tvg-name="平原综合" group-title="🇨🇳中国地方台",平原综合
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/09ab42f7
 #EXTINF:-1 tvg-name="平度新闻综合" group-title="🇨🇳中国地方台",平度新闻综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/cb43e22c
 #EXTINF:-1 tvg-name="平度生活服务" group-title="🇨🇳中国地方台",平度生活服务
@@ -1091,9 +1091,9 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/89733dd5
 #EXTINF:-1 tvg-name="文成综合频道" group-title="🇨🇳中国地方台",文成综合频道
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/dc4e3e6d
 #EXTINF:-1 tvg-name="文物宝库" group-title="🇨🇳中国地方台",文物宝库
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/239b4267
-#EXTINF:-1 tvg-name="文物宝库" group-title="🇨🇳中国地方台",文物宝库
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/3014693d
+#EXTINF:-1 tvg-name="文物宝库" group-title="🇨🇳中国地方台",文物宝库
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/239b4267
 #EXTINF:-1 tvg-name="文登TV1" group-title="🇨🇳中国地方台",文登TV1
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/40e6d65d
 #EXTINF:-1 tvg-name="文登TV2" group-title="🇨🇳中国地方台",文登TV2
@@ -1135,6 +1135,8 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/cf16f71e
 #EXTINF:-1 tvg-name="新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/新闻综合.png" group-title="🇨🇳中国地方台",新闻综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/897aa738
 #EXTINF:-1 tvg-name="新闻综合" group-title="🇨🇳中国地方台",新闻综合
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/b28fbd53
+#EXTINF:-1 tvg-name="新闻综合" group-title="🇨🇳中国地方台",新闻综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/71b6bda3
 #EXTINF:-1 tvg-name="新闻综合" group-title="🇨🇳中国地方台",新闻综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/0db98c8a
@@ -1144,8 +1146,6 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/c5a98602
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/3ff21a27
 #EXTINF:-1 tvg-name="新闻综合" group-title="🇨🇳中国地方台",新闻综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/903ad706
-#EXTINF:-1 tvg-name="新闻综合" group-title="🇨🇳中国地方台",新闻综合
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/b28fbd53
 #EXTINF:-1 tvg-name="新闻综合频道" group-title="🇨🇳中国地方台",新闻综合频道
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/ae476696
 #EXTINF:-1 tvg-name="新闻综合频道" group-title="🇨🇳中国地方台",新闻综合频道
@@ -1199,9 +1199,9 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/31f3c15a
 #EXTINF:-1 tvg-name="无锡新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/无锡新闻综合.png" group-title="🇨🇳中国地方台",无锡新闻综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/f24227d6
 #EXTINF:-1 tvg-name="无锡新闻综合" group-title="🇨🇳中国地方台",无锡新闻综合
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/cdde84dc
-#EXTINF:-1 tvg-name="无锡新闻综合" group-title="🇨🇳中国地方台",无锡新闻综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/b22f1fd6
+#EXTINF:-1 tvg-name="无锡新闻综合" group-title="🇨🇳中国地方台",无锡新闻综合
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/cdde84dc
 #EXTINF:-1 tvg-name="无锡生活" tvg-logo="https://www.xn--rgv465a.top/tvlogo/无锡生活.png" group-title="🇨🇳中国地方台",无锡生活
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/fb7b1e90
 #EXTINF:-1 tvg-name="无锡生活" tvg-logo="https://www.xn--rgv465a.top/tvlogo/无锡生活.png" group-title="🇨🇳中国地方台",无锡生活
@@ -1251,9 +1251,9 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/5707836d
 #EXTINF:-1 tvg-name="无锡都市资讯" tvg-logo="https://www.xn--rgv465a.top/tvlogo/无锡都市资讯.png" group-title="🇨🇳中国地方台",无锡都市资讯
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/cac6329c
 #EXTINF:-1 tvg-name="无锡都市资讯" group-title="🇨🇳中国地方台",无锡都市资讯
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/979f66b5
-#EXTINF:-1 tvg-name="无锡都市资讯" group-title="🇨🇳中国地方台",无锡都市资讯
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/2b068431
+#EXTINF:-1 tvg-name="无锡都市资讯" group-title="🇨🇳中国地方台",无锡都市资讯
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/979f66b5
 #EXTINF:-1 tvg-name="日喀则汉语综合" group-title="🇨🇳中国地方台",日喀则汉语综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/7bc57fa3
 #EXTINF:-1 tvg-name="日喀则藏语综合" group-title="🇨🇳中国地方台",日喀则藏语综合
@@ -1365,9 +1365,9 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/705ad526
 #EXTINF:-1 tvg-name="桦甸综合" group-title="🇨🇳中国地方台",桦甸综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/6fffdc4d
 #EXTINF:-1 tvg-name="梁山综合" group-title="🇨🇳中国地方台",梁山综合
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/23dce298
-#EXTINF:-1 tvg-name="梁山综合" group-title="🇨🇳中国地方台",梁山综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/70abb083
+#EXTINF:-1 tvg-name="梁山综合" group-title="🇨🇳中国地方台",梁山综合
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/23dce298
 #EXTINF:-1 tvg-name="梨园" tvg-logo="https://www.xn--rgv465a.top/tvlogo/梨园.png" group-title="🇨🇳中国地方台",梨园
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/870ad334
 #EXTINF:-1 tvg-name="梨树新闻" group-title="🇨🇳中国地方台",梨树新闻
@@ -1475,15 +1475,15 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/d814a2a4
 #EXTINF:-1 tvg-name="汾阳综合" group-title="🇨🇳中国地方台",汾阳综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/37426a33
 #EXTINF:-1 tvg-name="沂南红色影视" group-title="🇨🇳中国地方台",沂南红色影视
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/8bf56064
-#EXTINF:-1 tvg-name="沂南红色影视" group-title="🇨🇳中国地方台",沂南红色影视
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/c0e0356d
+#EXTINF:-1 tvg-name="沂南红色影视" group-title="🇨🇳中国地方台",沂南红色影视
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/8bf56064
 #EXTINF:-1 tvg-name="沂南综合" group-title="🇨🇳中国地方台",沂南综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/a9c89d9e
 #EXTINF:-1 tvg-name="沂水生活" group-title="🇨🇳中国地方台",沂水生活
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/80cafee7
-#EXTINF:-1 tvg-name="沂水生活" group-title="🇨🇳中国地方台",沂水生活
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/a4879c7e
+#EXTINF:-1 tvg-name="沂水生活" group-title="🇨🇳中国地方台",沂水生活
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/80cafee7
 #EXTINF:-1 tvg-name="沂水综合" group-title="🇨🇳中国地方台",沂水综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/13cf0327
 #EXTINF:-1 tvg-name="沂源生活" group-title="🇨🇳中国地方台",沂源生活
@@ -1587,13 +1587,13 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/e554e546
 #EXTINF:-1 tvg-name="济铁频道" group-title="🇨🇳中国地方台",济铁频道
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/4301f11b
 #EXTINF:-1 tvg-name="济阳影视" group-title="🇨🇳中国地方台",济阳影视
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/57540868
-#EXTINF:-1 tvg-name="济阳影视" group-title="🇨🇳中国地方台",济阳影视
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/40667473
-#EXTINF:-1 tvg-name="济阳综合" group-title="🇨🇳中国地方台",济阳综合
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/5b1f77a4
+#EXTINF:-1 tvg-name="济阳影视" group-title="🇨🇳中国地方台",济阳影视
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/57540868
 #EXTINF:-1 tvg-name="济阳综合" group-title="🇨🇳中国地方台",济阳综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/afd619d6
+#EXTINF:-1 tvg-name="济阳综合" group-title="🇨🇳中国地方台",济阳综合
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/5b1f77a4
 #EXTINF:-1 tvg-name="浙江**生活" group-title="🇨🇳中国地方台",浙江**生活
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/5f765ab1
 #EXTINF:-1 tvg-name="浙江之江纪录" group-title="🇨🇳中国地方台",浙江之江纪录
@@ -1601,15 +1601,15 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/2955b6de
 #EXTINF:-1 tvg-name="浙江公共新闻" group-title="🇨🇳中国地方台",浙江公共新闻
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/cb9e8fa8
 #EXTINF:-1 tvg-name="浙江国际" group-title="🇨🇳中国地方台",浙江国际
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/8c0aa7f9
-#EXTINF:-1 tvg-name="浙江国际" group-title="🇨🇳中国地方台",浙江国际
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/926606a8
+#EXTINF:-1 tvg-name="浙江国际" group-title="🇨🇳中国地方台",浙江国际
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/8c0aa7f9
 #EXTINF:-1 tvg-name="浙江好易购" group-title="🇨🇳中国地方台",浙江好易购
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/3d7004c6
 #EXTINF:-1 tvg-name="浙江少儿" group-title="🇨🇳中国地方台",浙江少儿
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/7fa66a13
-#EXTINF:-1 tvg-name="浙江少儿" group-title="🇨🇳中国地方台",浙江少儿
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/4d2ac2cf
+#EXTINF:-1 tvg-name="浙江少儿" group-title="🇨🇳中国地方台",浙江少儿
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/7fa66a13
 #EXTINF:-1 tvg-name="浙江影视" group-title="🇨🇳中国地方台",浙江影视
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/7b0dfc0b
 #EXTINF:-1 tvg-name="浙江教科影视" group-title="🇨🇳中国地方台",浙江教科影视
@@ -1619,9 +1619,9 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/489f3259
 #EXTINF:-1 tvg-name="浙江新闻" group-title="🇨🇳中国地方台",浙江新闻
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/2d2df177
 #EXTINF:-1 tvg-name="浙江民生休闲" group-title="🇨🇳中国地方台",浙江民生休闲
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/866193ee
-#EXTINF:-1 tvg-name="浙江民生休闲" group-title="🇨🇳中国地方台",浙江民生休闲
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/d706f903
+#EXTINF:-1 tvg-name="浙江民生休闲" group-title="🇨🇳中国地方台",浙江民生休闲
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/866193ee
 #EXTINF:-1 tvg-name="浙江经济生活" group-title="🇨🇳中国地方台",浙江经济生活
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/e7887e2d
 #EXTINF:-1 tvg-name="浙江钱江" group-title="🇨🇳中国地方台",浙江钱江
@@ -1655,9 +1655,9 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/256c1a74
 #EXTINF:-1 tvg-name="海宁生活服务" group-title="🇨🇳中国地方台",海宁生活服务
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/27376eb0
 #EXTINF:-1 tvg-name="海阳综合" group-title="🇨🇳中国地方台",海阳综合
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/8c956045
-#EXTINF:-1 tvg-name="海阳综合" group-title="🇨🇳中国地方台",海阳综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/bc218ba9
+#EXTINF:-1 tvg-name="海阳综合" group-title="🇨🇳中国地方台",海阳综合
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/8c956045
 #EXTINF:-1 tvg-name="涉县综合" group-title="🇨🇳中国地方台",涉县综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/24569054
 #EXTINF:-1 tvg-name="涞源综合" group-title="🇨🇳中国地方台",涞源综合
@@ -1727,9 +1727,9 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/e7b75ea6
 #EXTINF:-1 tvg-name="滦平新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/滦平新闻.png" group-title="🇨🇳中国地方台",滦平新闻
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/caf391cd
 #EXTINF:-1 tvg-name="滨城TV" group-title="🇨🇳中国地方台",滨城TV
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/f8482408
-#EXTINF:-1 tvg-name="滨城TV" group-title="🇨🇳中国地方台",滨城TV
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/d5b88091
+#EXTINF:-1 tvg-name="滨城TV" group-title="🇨🇳中国地方台",滨城TV
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/f8482408
 #EXTINF:-1 tvg-name="滨州新闻综合" group-title="🇨🇳中国地方台",滨州新闻综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/d6b269ca
 #EXTINF:-1 tvg-name="滨州民生" group-title="🇨🇳中国地方台",滨州民生
@@ -1753,9 +1753,9 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/f759d2d0
 #EXTINF:-1 tvg-name="潍坊科教文旅" group-title="🇨🇳中国地方台",潍坊科教文旅
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/bda8e707
 #EXTINF:-1 tvg-name="潍坊高新区" group-title="🇨🇳中国地方台",潍坊高新区
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/0aa011b2
-#EXTINF:-1 tvg-name="潍坊高新区" group-title="🇨🇳中国地方台",潍坊高新区
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/b042150f
+#EXTINF:-1 tvg-name="潍坊高新区" group-title="🇨🇳中国地方台",潍坊高新区
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/0aa011b2
 #EXTINF:-1 tvg-name="潍城TV" group-title="🇨🇳中国地方台",潍城TV
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/a1306a91
 #EXTINF:-1 tvg-name="潍城区广播电视台" group-title="🇨🇳中国地方台",潍城区广播电视台
@@ -1899,9 +1899,9 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/42af6b6f
 #EXTINF:-1 tvg-name="章丘公共" group-title="🇨🇳中国地方台",章丘公共
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/2f097313
 #EXTINF:-1 tvg-name="章丘综合" group-title="🇨🇳中国地方台",章丘综合
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/51e69374
-#EXTINF:-1 tvg-name="章丘综合" group-title="🇨🇳中国地方台",章丘综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/7ab7e6b4
+#EXTINF:-1 tvg-name="章丘综合" group-title="🇨🇳中国地方台",章丘综合
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/51e69374
 #EXTINF:-1 tvg-name="简阳新闻综合" group-title="🇨🇳中国地方台",简阳新闻综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/17c903be
 #EXTINF:-1 tvg-name="精灵宝可梦" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/精灵宝可梦.png" group-title="🇨🇳中国地方台",精灵宝可梦
@@ -1933,9 +1933,9 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/7a969689
 #EXTINF:-1 tvg-name="绍兴综合" group-title="🇨🇳中国地方台",绍兴综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/b1a52f5d
 #EXTINF:-1 tvg-name="经济生活" group-title="🇨🇳中国地方台",经济生活
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/95cb054b
-#EXTINF:-1 tvg-name="经济生活" group-title="🇨🇳中国地方台",经济生活
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/39ae43db
+#EXTINF:-1 tvg-name="经济生活" group-title="🇨🇳中国地方台",经济生活
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/95cb054b
 #EXTINF:-1 tvg-name="经济生活频道" group-title="🇨🇳中国地方台",经济生活频道
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/06f44174
 #EXTINF:-1 tvg-name="绥化综合" group-title="🇨🇳中国地方台",绥化综合
@@ -2041,13 +2041,13 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/2d7c12fd
 #EXTINF:-1 tvg-name="范县新闻综合" group-title="🇨🇳中国地方台",范县新闻综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/3a87ce56
 #EXTINF:-1 tvg-name="茌平生活" group-title="🇨🇳中国地方台",茌平生活
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/df13e1de
-#EXTINF:-1 tvg-name="茌平生活" group-title="🇨🇳中国地方台",茌平生活
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/2a3c2d44
-#EXTINF:-1 tvg-name="茌平综合" group-title="🇨🇳中国地方台",茌平综合
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/e72c7cf6
+#EXTINF:-1 tvg-name="茌平生活" group-title="🇨🇳中国地方台",茌平生活
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/df13e1de
 #EXTINF:-1 tvg-name="茌平综合" group-title="🇨🇳中国地方台",茌平综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/ea024d26
+#EXTINF:-1 tvg-name="茌平综合" group-title="🇨🇳中国地方台",茌平综合
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/e72c7cf6
 #EXTINF:-1 tvg-name="荆门教育频道" group-title="🇨🇳中国地方台",荆门教育频道
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/0d992d5e
 #EXTINF:-1 tvg-name="荆门文旅" group-title="🇨🇳中国地方台",荆门文旅
@@ -2061,13 +2061,13 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/e42fa2f5
 #EXTINF:-1 tvg-name="荣县综合" group-title="🇨🇳中国地方台",荣县综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/9b73fddb
 #EXTINF:-1 tvg-name="荣成生活" group-title="🇨🇳中国地方台",荣成生活
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/c3776ac5
-#EXTINF:-1 tvg-name="荣成生活" group-title="🇨🇳中国地方台",荣成生活
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/d4e4a1f0
-#EXTINF:-1 tvg-name="荣成综合" group-title="🇨🇳中国地方台",荣成综合
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/88b65183
+#EXTINF:-1 tvg-name="荣成生活" group-title="🇨🇳中国地方台",荣成生活
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/c3776ac5
 #EXTINF:-1 tvg-name="荣成综合" group-title="🇨🇳中国地方台",荣成综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/a013aa4b
+#EXTINF:-1 tvg-name="荣成综合" group-title="🇨🇳中国地方台",荣成综合
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/88b65183
 #EXTINF:-1 tvg-name="荣昌综合" group-title="🇨🇳中国地方台",荣昌综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/88b77af1
 #EXTINF:-1 tvg-name="荥经综合" tvg-logo="https://live.fanmingming.cn/tv/荥经综合.png" group-title="🇨🇳中国地方台",荥经综合
@@ -2095,9 +2095,9 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/66fbea31
 #EXTINF:-1 tvg-name="莒县2套" group-title="🇨🇳中国地方台",莒县2套
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/82dc367a
 #EXTINF:-1 tvg-name="莒县综合" group-title="🇨🇳中国地方台",莒县综合
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/25649abf
-#EXTINF:-1 tvg-name="莒县综合" group-title="🇨🇳中国地方台",莒县综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/0da2b958
+#EXTINF:-1 tvg-name="莒县综合" group-title="🇨🇳中国地方台",莒县综合
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/25649abf
 #EXTINF:-1 tvg-name="莘县二台" group-title="🇨🇳中国地方台",莘县二台
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/ec19a183
 #EXTINF:-1 tvg-name="莘县综合" group-title="🇨🇳中国地方台",莘县综合
@@ -2135,9 +2135,9 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/d96895c3
 #EXTINF:-1 tvg-name="蒙阴TV—2" group-title="🇨🇳中国地方台",蒙阴TV—2
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/5876be2b
 #EXTINF:-1 tvg-name="蒙阴综合" group-title="🇨🇳中国地方台",蒙阴综合
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/d3298264
-#EXTINF:-1 tvg-name="蒙阴综合" group-title="🇨🇳中国地方台",蒙阴综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/c6b5a36a
+#EXTINF:-1 tvg-name="蒙阴综合" group-title="🇨🇳中国地方台",蒙阴综合
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/d3298264
 #EXTINF:-1 tvg-name="蒲江电视台" group-title="🇨🇳中国地方台",蒲江电视台
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/2a6cc7ae
 #EXTINF:-1 tvg-name="蓬莱区融媒体中心综合频道" group-title="🇨🇳中国地方台",蓬莱区融媒体中心综合频道
@@ -2195,13 +2195,13 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/42869c0a
 #EXTINF:-1 tvg-name="购特电视" group-title="🇨🇳中国地方台",购特电视
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/5e1b9812
 #EXTINF:-1 tvg-name="费县生活" group-title="🇨🇳中国地方台",费县生活
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/01be4776
-#EXTINF:-1 tvg-name="费县生活" group-title="🇨🇳中国地方台",费县生活
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/5f9ddd66
-#EXTINF:-1 tvg-name="费县综合" group-title="🇨🇳中国地方台",费县综合
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/b27fe465
+#EXTINF:-1 tvg-name="费县生活" group-title="🇨🇳中国地方台",费县生活
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/01be4776
 #EXTINF:-1 tvg-name="费县综合" group-title="🇨🇳中国地方台",费县综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/dccfa5ca
+#EXTINF:-1 tvg-name="费县综合" group-title="🇨🇳中国地方台",费县综合
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/b27fe465
 #EXTINF:-1 tvg-name="资阳新闻综合" group-title="🇨🇳中国地方台",资阳新闻综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/809d75c8
 #EXTINF:-1 tvg-name="资阳雁江" group-title="🇨🇳中国地方台",资阳雁江
@@ -2621,13 +2621,13 @@ https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/fdd28ad0
 #EXTINF:-1 tvg-name="齐齐哈尔经济法治" group-title="🇨🇳中国地方台",齐齐哈尔经济法治
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/a73b377a
 #EXTINF:-1 tvg-name="龙口生活" group-title="🇨🇳中国地方台",龙口生活
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/56261492
-#EXTINF:-1 tvg-name="龙口生活" group-title="🇨🇳中国地方台",龙口生活
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/67aea0a5
-#EXTINF:-1 tvg-name="龙口综合" group-title="🇨🇳中国地方台",龙口综合
-https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/8fcde21c
+#EXTINF:-1 tvg-name="龙口生活" group-title="🇨🇳中国地方台",龙口生活
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/56261492
 #EXTINF:-1 tvg-name="龙口综合" group-title="🇨🇳中国地方台",龙口综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/9c6478f3
+#EXTINF:-1 tvg-name="龙口综合" group-title="🇨🇳中国地方台",龙口综合
+https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/8fcde21c
 #EXTINF:-1 tvg-name="龙江综合" group-title="🇨🇳中国地方台",龙江综合
 https://iptv-search.com/live/fav/FQQtioOseKWPz08redp6UxnYIBgG1pS6/c9d62be1
 #EXTINF:-1 tvg-name="龙泉新闻综合" group-title="🇨🇳中国地方台",龙泉新闻综合
