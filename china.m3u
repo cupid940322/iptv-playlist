@@ -1,5 +1,5 @@
 #EXTM3U
-# 抓取自 eja.tv 中国区，更新时间: 2026-11-22 08:52:45
+# 抓取自 eja.tv 中国区，更新时间: 2026-11-23 09:50:34
 #EXTINF:-1 tvg-name="CGTN Documentary" group-title="🇨🇳EJA中国频道",CGTN Documentary
 https://english-livebkali.cgtn.com/live/doccgtn.m3u8
 #EXTINF:-1 tvg-name="CCTV+ 1" group-title="🇨🇳EJA中国频道",CCTV+ 1
@@ -26,8 +26,6 @@ https://dash3.antik.sk/live/test_cgtn_rus_tizen/playlist.m3u8
 https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
 #EXTINF:-1 tvg-name="Siping TV" group-title="🇨🇳EJA中国频道",Siping TV
 http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
-#EXTINF:-1 tvg-name="CCTV-9" group-title="🇨🇳EJA中国频道",CCTV-9
-https://xykt-fix.github.io/Y77.m3u8
 #EXTINF:-1 tvg-name="白城新闻综合" group-title="🇨🇳EJA中国频道",白城新闻综合
 https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
 #EXTINF:-1 tvg-name="Bread TV面包台" group-title="🇨🇳EJA中国频道",Bread TV面包台
@@ -72,34 +70,30 @@ https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8
 https://h5cul1yar48um3t.wcetv.com/hls/gdsatellite.m3u8
 #EXTINF:-1 tvg-name="Hunan Economy Channel" group-title="🇨🇳EJA中国频道",Hunan Economy Channel
 https://p8.vzan.com/slowlive/415983998730568937/live.m3u8
+#EXTINF:-1 tvg-name="Nei Monggol TV" group-title="🇨🇳EJA中国频道",Nei Monggol TV
+http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
 #EXTINF:-1 tvg-name="CGTN Français" group-title="🇨🇳EJA中国频道",CGTN Français
 https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
 #EXTINF:-1 tvg-name="Hebei TV" group-title="🇨🇳EJA中国频道",Hebei TV
 https://event.pull.hebtv.com/live/live101.m3u8
-#EXTINF:-1 tvg-name="Nei Monggol TV" group-title="🇨🇳EJA中国频道",Nei Monggol TV
-http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
-#EXTINF:-1 tvg-name="Qinghai TV" group-title="🇨🇳EJA中国频道",Qinghai TV
-https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
 #EXTINF:-1 tvg-name="CGTN" group-title="🇨🇳EJA中国频道",CGTN
 https://0472.org/hls/cgtn.m3u8
 #EXTINF:-1 tvg-name="Xinjiang TV 2" group-title="🇨🇳EJA中国频道",Xinjiang TV 2
 https://hls.quklive.com/live/play-sh-21.quklive.com/1777511615189085.m3u8?auth_key=2092871636-a39d8614688744d0b170b856b086ba80-0-33900446b83fa0b5befeb6bedbcd51a0
+#EXTINF:-1 tvg-name="Xinjiang TV 2" group-title="🇨🇳EJA中国频道",Xinjiang TV 2
+https://infolive.hongshannet.cn/RedHillEye/1781077833267957853648adb1cc9957853648adb1cc9.m3u8?auth_key=1812613833-0-0-4dabcc60fbe41e40712b37dbf24dc877
 #EXTINF:-1 tvg-name="CGTN Español" group-title="🇨🇳EJA中国频道",CGTN Español
 https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
 #EXTINF:-1 tvg-name="CGTN Русский" group-title="🇨🇳EJA中国频道",CGTN Русский
 https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
-#EXTINF:-1 tvg-name="Xinjiang TV 2" group-title="🇨🇳EJA中国频道",Xinjiang TV 2
-https://infolive.hongshannet.cn/RedHillEye/1781077833267957853648adb1cc9957853648adb1cc9.m3u8?auth_key=1812613833-0-0-4dabcc60fbe41e40712b37dbf24dc877
-#EXTINF:-1 tvg-name="CGTN Documentary" group-title="🇨🇳EJA中国频道",CGTN Documentary
-https://hlspackager.akamaized.net/live/DB/CGTN_DOCUMENTARY/HLS/CGTN_DOCUMENTARY.m3u8
 #EXTINF:-1 tvg-name="Xizang TV Chinese" group-title="🇨🇳EJA中国频道",Xizang TV Chinese
 https://pili-live-hls-zdzz-tv.zzxwcm.cn/zdzz-tv/nqzh.m3u8
+#EXTINF:-1 tvg-name="CGTN Documentary" group-title="🇨🇳EJA中国频道",CGTN Documentary
+https://hlspackager.akamaized.net/live/DB/CGTN_DOCUMENTARY/HLS/CGTN_DOCUMENTARY.m3u8
 #EXTINF:-1 tvg-name="CGTN" group-title="🇨🇳EJA中国频道",CGTN
 https://hlspackager.akamaized.net/live/DB/CGTN_ENGLISH/HLS/CGTN_ENGLISH.m3u8
 #EXTINF:-1 tvg-name="CGTN Documentary" group-title="🇨🇳EJA中国频道",CGTN Documentary
 https://h5cul1yar48um3t.wcetv.com/hls/cgtnd.m3u8
-#EXTINF:-1 tvg-name="CGTN English" group-title="🇨🇳EJA中国频道",CGTN English
-https://h5cul1yar48um3t.wcetv.com/hls/cgtn.m3u8
 #EXTINF:-1 tvg-name="CGTN French" group-title="🇨🇳EJA中国频道",CGTN French
 http://145.239.5.177/214/index.m3u8
 #EXTINF:-1 tvg-name="Chuxiong News Channel" group-title="🇨🇳EJA中国频道",Chuxiong News Channel
