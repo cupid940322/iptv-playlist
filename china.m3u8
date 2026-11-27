@@ -1,29 +1,19 @@
 #EXTM3U
-# 抓取自 eja.tv 中国区，更新时间: 2026-11-26 10:03:49
+# 抓取自 eja.tv 中国区，更新时间: 2026-11-27 10:09:34
 #EXTINF:-1 tvg-name="CGTN Documentary" group-title="🇨🇳EJA中国频道",CGTN Documentary
 https://english-livebkali.cgtn.com/live/doccgtn.m3u8
 #EXTINF:-1 tvg-name="CCTV+ 1" group-title="🇨🇳EJA中国频道",CCTV+ 1
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Hunan TV" group-title="🇨🇳EJA中国频道",Hunan TV
 http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
-#EXTINF:-1 tvg-name="CCTV-4 Europe" group-title="🇨🇳EJA中国频道",CCTV-4 Europe
-https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
-#EXTINF:-1 tvg-name="Ando TV" group-title="🇨🇳EJA中国频道",Ando TV
-http://play.kankanlive.com/live/1711956137852982.m3u8
 #EXTINF:-1 tvg-name="CCTV+ 2" group-title="🇨🇳EJA中国频道",CCTV+ 2
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="CGTN" group-title="🇨🇳EJA中国频道",CGTN
-https://dash4.antik.sk/live/test_cgtn/playlist.m3u8
-#EXTINF:-1 tvg-name="CGTN" group-title="🇨🇳EJA中国频道",CGTN
-https://english-livebkali.cgtn.com/live/encgtn.m3u8
 #EXTINF:-1 tvg-name="Zhejiang TV International" group-title="🇨🇳EJA中国频道",Zhejiang TV International
 https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
 #EXTINF:-1 tvg-name="CGTN Documentary" group-title="🇨🇳EJA中国频道",CGTN Documentary
 https://dash3.antik.sk/live/test_cgtn_doc/playlist.m3u8
 #EXTINF:-1 tvg-name="CGTN Russian" group-title="🇨🇳EJA中国频道",CGTN Russian
 https://dash3.antik.sk/live/test_cgtn_rus_tizen/playlist.m3u8
-#EXTINF:-1 tvg-name="Guangzhou TV" group-title="🇨🇳EJA中国频道",Guangzhou TV
-https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
 #EXTINF:-1 tvg-name="Siping TV" group-title="🇨🇳EJA中国频道",Siping TV
 http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
 #EXTINF:-1 tvg-name="CCTV-9" group-title="🇨🇳EJA中国频道",CCTV-9
@@ -48,10 +38,6 @@ https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8
 https://cdn4.skygo.mn/live/disk1/CCTV-10/HLSv3-FTA/CCTV-10.m3u8
 #EXTINF:-1 tvg-name="CGTN Arabic" group-title="🇨🇳EJA中国频道",CGTN Arabic
 https://dash3.antik.sk/live/test_cgtn_arb_tizen/playlist.m3u8
-#EXTINF:-1 tvg-name="Hebei TV" group-title="🇨🇳EJA中国频道",Hebei TV
-https://event.pull.hebtv.com:443/live/live101.m3u8
-#EXTINF:-1 tvg-name="Xizang TV Tibetan" group-title="🇨🇳EJA中国频道",Xizang TV Tibetan
-http://php.jdshipin.com:8880/xztv.php?id=zy
 #EXTINF:-1 tvg-name="Jiangsu Public & News Channel" group-title="🇨🇳EJA中国频道",Jiangsu Public & News Channel
 https://jiangning-tv-playing-t.cm.jstv.com/jiangning-tv/jnxwzh.m3u8
 #EXTINF:-1 tvg-name="CGTN" group-title="🇨🇳EJA中国频道",CGTN
@@ -104,5 +90,19 @@ https://dai.google.com/linear/hls/event/r4sa-f6GSN2XIvzKv5jVng/master.m3u8
 https://h5cul1yar48um3t.wcetv.com/hls/cgtnd.m3u8
 #EXTINF:-1 tvg-name="CGTN French" group-title="🇨🇳EJA中国频道",CGTN French
 http://145.239.5.177/214/index.m3u8
+#EXTINF:-1 tvg-name="Chuxiong News Channel" group-title="🇨🇳EJA中国频道",Chuxiong News Channel
+http://hwapi.yntv.net/ew265l/848y54.m3u8
+#EXTINF:-1 tvg-name="CGTN Arabic" group-title="🇨🇳EJA中国频道",CGTN Arabic
+https://arabic-liveali.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8
+#EXTINF:-1 tvg-name="CGTN French" group-title="🇨🇳EJA中国频道",CGTN French
+https://francais-liveali.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8
+#EXTINF:-1 tvg-name="CGTN Russian" group-title="🇨🇳EJA中国频道",CGTN Russian
+https://russian-liveali.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
+#EXTINF:-1 tvg-name="CGTN Spanish" group-title="🇨🇳EJA中国频道",CGTN Spanish
+https://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
 #EXTINF:-1 tvg-name="CGTN Spanish" group-title="🇨🇳EJA中国频道",CGTN Spanish
 http://45.186.106.147:8880/play/a06f/index.m3u8
+#EXTINF:-1 tvg-name="Jingmen Comprehensive News Channel" group-title="🇨🇳EJA中国频道",Jingmen Comprehensive News Channel
+https://stream.jmtv.com.cn/xwzh/sd/live.m3u8?_upt=341f4b8e1791883036
+#EXTINF:-1 tvg-name="Xizang TV Tibetan" group-title="🇨🇳EJA中国频道",Xizang TV Tibetan
+https://live.vtibet.cn/live/ZYWS20261016.stream.m3u8
